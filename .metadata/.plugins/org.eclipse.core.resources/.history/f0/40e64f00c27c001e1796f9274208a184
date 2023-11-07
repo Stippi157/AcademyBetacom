@@ -1,0 +1,6 @@
+package it.betacom.contoBancario;
+
+public class ContoCorrente {
+	private static final int tassoDiInteresse = 7;
+	
+}

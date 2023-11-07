@@ -1,0 +1,19 @@
+package it.betacom.main;
+
+public class GenericsMainDemo {
+
+	public static void main(String[] args) {
+		
+		class Demo{
+			public <T> void genericMethod(T data) {
+				System.out.println(data);
+			}
+		}
+		
+		Demo demo = new Demo();
+		demo.genericMethod("SanPietro aiutami tu");
+		demo.genericMethod(27);
+		
+	}
+
+}

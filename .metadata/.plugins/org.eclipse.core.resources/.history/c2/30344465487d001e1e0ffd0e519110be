@@ -1,0 +1,31 @@
+package it.betacom.contoBancario;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+
+public class ContoCorrente extends Conto {
+	
+	public ContoCorrente(String titolare) {
+		super(titolare);
+		// TODO Auto-generated constructor stub
+	}
+
+	private static final int tassoDiInteresse = 7;
+
+	@Override
+	public void generaInteressi() {
+		
+		
+	}
+	public int calcolaPeriodo(LocalDate dataInizio, LocalDate dataFine, ArrayList<Movimento> movimenti) {
+		LocalDate temp;
+		int periodo = 0;
+		for(int i = 0; i<movimenti.size(); i++) {
+			periodo.between(dataInizio, dataFine);
+		}
+		
+		return 0;
+		
+	}
+	
+}

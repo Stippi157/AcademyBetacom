@@ -1,0 +1,23 @@
+package it.betacom.contoBancario;
+
+public class Movimento extends Conto {
+
+	@Override
+	public void prelievo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void versamento() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void generaInteressi() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

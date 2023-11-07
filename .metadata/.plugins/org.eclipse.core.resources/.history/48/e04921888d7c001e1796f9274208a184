@@ -1,0 +1,5 @@
+package it.betacom.ComputerFactory;
+
+public abstract class Computer {
+
+}

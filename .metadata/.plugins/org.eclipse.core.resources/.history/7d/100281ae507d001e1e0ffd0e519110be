@@ -1,0 +1,10 @@
+package it.betacom.designpatterns.facade;
+
+public class FacadeDemoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

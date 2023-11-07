@@ -1,0 +1,5 @@
+package it.betacom.designpatter.prototype;
+
+public interface Prototype {
+
+}

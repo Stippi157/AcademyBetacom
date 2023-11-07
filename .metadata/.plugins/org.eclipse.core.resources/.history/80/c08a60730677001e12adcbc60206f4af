@@ -1,0 +1,8 @@
+package it.betacom.anonymous;
+
+public class Calcolatrice {
+	
+	public String somma(int a, int b) {
+		return Integer.toString(a + b);
+	}
+}

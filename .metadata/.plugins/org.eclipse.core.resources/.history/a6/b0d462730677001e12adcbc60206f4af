@@ -1,0 +1,21 @@
+package it.betacom.anonymous;
+
+import model.MyLogger;
+
+public class MainAnonymous {
+
+	public static void main(String[] args) {
+		MyLogger myLogger = new MyLogger();
+		myLogger.info("Start main method");
+		Calcolatrice c = new Calcolatrice();
+		myLogger.info("L'operazione è uguale a: " + c.somma(13,9));
+		
+		Calcolatrice c2 = new Calcolatrice();
+		
+		public String somma(int a, int b) {
+			String messaggio = "La somma di " + a + "e " + b + " vale: ";
+			return messaggio + (a + b + a);
+		}
+	}
+
+}

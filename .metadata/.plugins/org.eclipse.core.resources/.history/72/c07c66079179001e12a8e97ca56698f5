@@ -1,0 +1,76 @@
+package it.betacom.user;
+
+public class ContrattoTelefonico {
+
+	private static final double COSTO_AL_SECONDO = 0.01;
+	private double costoTotale;
+	private double costoTelefonata;
+	private int numTelefonate;
+	private int numeroTelefono;
+	private String nomeAbbonato;
+	
+
+	public ContrattoTelefonico(String nome, int numeroTelefono) {
+		this.nomeAbbonato = nome;
+		this.numeroTelefono = numeroTelefono;
+	}
+	
+	public String getDatiUtente() {
+		return ("Nome utente: " + nomeAbbonato + "numero di telefono: " + numeroTelefono);
+	}
+	
+
+	public int getNumTelefonate() {
+		return numTelefonate;
+	}
+
+	public void setNumTelefonate(int numTelefonate) {
+		this.numTelefonate = numTelefonate;
+	}
+
+	public static double getCostoAlSecondo() {
+		return COSTO_AL_SECONDO;
+	}
+
+	public int getNumeroTelefono() {
+		return numeroTelefono;
+	}
+
+	public void setNumeroTelefono(int numeroTelefono) {
+		this.numeroTelefono = numeroTelefono;
+	}
+
+	public String getNomeAbbonato() {
+		return nomeAbbonato;
+	}
+
+	public void setNomeAbbonato(String nomeAbbonato) {
+		this.nomeAbbonato = nomeAbbonato;
+	}
+
+	public void costoTelefonata(int secondi) {
+		this.costoTotale += COSTO_AL_SECONDO  * secondi;
+	}
+	
+	public void costoTelefonata(double costo) {
+		this.costoTotale += costo;
+ 	}
+
+	public double getCostoTelefonata() {
+		return costoTelefonata;
+	}
+
+	public void setCostoTelefonata(double costoTelefonata) {
+		this.costoTelefonata = costoTelefonata;
+	}
+
+	public double getCostoTotale() {
+		return costoTotale;
+	}
+
+	public void setCostoTotale(double costoTotale) {
+		this.costoTotale = costoTotale;
+	}
+	
+	
+}

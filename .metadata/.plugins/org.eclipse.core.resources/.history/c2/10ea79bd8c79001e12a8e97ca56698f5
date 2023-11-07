@@ -1,0 +1,10 @@
+package it.betacom.MainContrattoTelefonico;
+
+public class MainContrattoTelefonico {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

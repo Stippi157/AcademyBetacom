@@ -1,0 +1,12 @@
+package it.betacom.anonymous;
+
+import model.MyLogger;
+
+public class MainAnonymous {
+
+	public static void main(String[] args) {
+		MyLogger myLogger = new MyLogger();
+
+	}
+
+}

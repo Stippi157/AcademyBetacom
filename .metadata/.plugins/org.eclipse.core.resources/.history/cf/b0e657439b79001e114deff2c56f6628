@@ -1,0 +1,12 @@
+package it.betacom.user;
+import java.time.LocalDate;
+
+import com.itextpdf.*;
+
+public class pdfHandler {
+	private static final String filePath = "C:\\Workspace_102023\\ContrattoTelefonico\\Bollette";
+	
+	public void createPDF(ContrattoTelefonico contratto) {
+		String nomeFile = "Bolletta_" + LocalDate.now().toString();
+	}
+}

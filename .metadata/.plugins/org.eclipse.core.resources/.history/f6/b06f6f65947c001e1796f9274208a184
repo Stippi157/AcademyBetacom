@@ -1,0 +1,5 @@
+package it.betacom.ComputerFactory;
+
+public class Laptop {
+
+}

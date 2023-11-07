@@ -1,0 +1,12 @@
+package it.betacom.designpatterns.facade;
+
+public class FacadeDemoMain {
+
+	public static void main(String[] args) {
+		ShapeMaker shape = new ShapeMaker();
+		shape.drawCircle();
+		shape.drawRectangle();
+		shape.drawSquare();
+	}
+
+}

@@ -1,0 +1,30 @@
+package it.betacom.ComputerFactory;
+
+public class Notebook extends Computer{
+	
+	public Notebook() {
+		super();
+		this.HD = 0;
+		this.CPU = 0;
+		this.RAM = 0;
+	}
+
+	@Override
+	void getRAM() {
+		this.RAM = 8;
+		
+	}
+
+	@Override
+	void getHD() {
+		this.HD = 500;
+		
+	}
+
+	@Override
+	void getCPU() {
+		this.CPU = 2.4;
+		
+	}
+
+}

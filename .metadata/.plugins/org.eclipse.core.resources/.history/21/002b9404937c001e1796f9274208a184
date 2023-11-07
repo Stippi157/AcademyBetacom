@@ -1,0 +1,14 @@
+package it.betacom.ComputerFactory;
+
+public class ComputerMain {
+
+	public static void main(String[] args) {
+		FactoryComputer factoryComputer = new FactoryComputer();
+		Computer Notebook = factoryComputer.getComputer("Notebook");
+		Notebook.getHD();
+		Notebook.getCPU();
+		Notebook.getRAM();
+		Notebook.toString();
+	}
+
+}

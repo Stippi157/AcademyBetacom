@@ -1,0 +1,23 @@
+package it.betacom.ComputerFactory;
+
+public class Laptop extends Computer{
+
+	@Override
+	void getRAM() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void getHD() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void getCPU() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

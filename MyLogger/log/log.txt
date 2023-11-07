@@ -1,0 +1,28 @@
+[27-10-2023 12:17:33]ERRORE Messaggio di errore
+[27-10-2023 12:23:00]ERRORE Messaggio di errore
+[27-10-2023 12:23:32]INFO  messaggio di log
+[27-10-2023 12:23:32]WARNING  Messaggio di avvertimento
+[27-10-2023 12:23:32]ERRORE Messaggio di errore
+[27-10-2023 12:24:21]INFO  messaggio di log
+[27-10-2023 12:24:21]WARNING  Messaggio di avvertimento
+[27-10-2023 12:24:21]ERRORE Messaggio di errore
+[27-10-2023 12:24:38]ERRORE Messaggio di errore
+[27-10-2023 12:24:49]INFO  messaggio di log
+[27-10-2023 12:24:49]WARNING  Messaggio di avvertimento
+[27-10-2023 12:24:49]ERRORE Messaggio di errore
+[30-10-2023 10:13:06]INFO  Start Main method
+[30-10-2023 10:13:06]INFO  La somma è uguale a: 15
+[30-10-2023 10:15:17]INFO  Start Main method
+[30-10-2023 10:15:17]INFO  La somma è uguale a: 15
+[30-10-2023 10:41:59]INFO  Start main method
+[30-10-2023 10:41:59]INFO  L'operazione è uguale a: 15
+[30-10-2023 10:41:59]INFO  Marca = 2129789493L'operazione 
+[30-10-2023 10:41:59]INFO  2
+[30-10-2023 10:42:17]INFO  Start main method
+[30-10-2023 10:42:17]INFO  L'operazione è uguale a: 15
+[30-10-2023 10:42:17]INFO  Marca = 2129789493L'operazione 
+[30-10-2023 10:42:17]INFO  2
+[30-10-2023 10:52:54]INFO  Start main method
+[30-10-2023 10:52:54]INFO  L'operazione è uguale a: 15
+[30-10-2023 10:52:54]INFO  Marca = 2129789493L'operazione 
+[30-10-2023 10:52:54]INFO  2

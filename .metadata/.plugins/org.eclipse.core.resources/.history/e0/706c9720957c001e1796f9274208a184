@@ -1,0 +1,14 @@
+package it.betacom.ComputerFactory;
+
+public abstract class Computer {
+	int HD, RAM;
+	double CPU;
+	abstract void getRAM();
+	abstract void getHD();
+	abstract void getCPU();
+	
+	@Override
+	public String toString() {
+		return ("[RAM: " + this.RAM + " GB" + " HD: " + this.HD + " GB" + " CPU: " + this.CPU + " GB" + " ]");
+	}
+}

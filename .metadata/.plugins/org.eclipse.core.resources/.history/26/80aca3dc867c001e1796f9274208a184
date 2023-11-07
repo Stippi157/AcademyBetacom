@@ -1,0 +1,5 @@
+package it.betacom.factory;
+
+public class PlanFactory {
+
+}

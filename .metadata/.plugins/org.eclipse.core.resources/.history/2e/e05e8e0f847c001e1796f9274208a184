@@ -1,0 +1,13 @@
+package it.betacom.main;
+
+import it.betacom.factory.Plan;
+
+public class IstitutionalPlan extends Plan {
+
+	@Override
+	void getRate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

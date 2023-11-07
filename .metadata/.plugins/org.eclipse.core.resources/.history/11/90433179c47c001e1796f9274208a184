@@ -1,0 +1,14 @@
+package it.betacom.contoBancario;
+
+import java.time.LocalDate;
+
+public class Movimento {
+	LocalDate dataMovimento;
+	
+	
+	public Movimento() {
+		super();
+		this.dataMovimento = UtilsConto.generaData();
+	}
+	
+}

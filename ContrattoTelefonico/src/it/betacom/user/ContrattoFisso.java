@@ -1,0 +1,23 @@
+package it.betacom.user;
+
+public class ContrattoFisso extends ContrattoTelefonico {
+	
+	private String indirizzo;
+
+	public ContrattoFisso(String nome, int numeroTelefono, String indirizzo) {
+		super(nome, numeroTelefono);
+		this.indirizzo = indirizzo;
+	}
+	public String getDatiUtente() {
+		return super.getDatiUtente() + (" Indirizo: " + indirizzo);
+	}
+
+	public String getIndirizzo() {
+		return indirizzo;
+	}
+
+	public void setIndirizzo(String indirizzo) {
+		this.indirizzo = indirizzo;
+	}
+
+}

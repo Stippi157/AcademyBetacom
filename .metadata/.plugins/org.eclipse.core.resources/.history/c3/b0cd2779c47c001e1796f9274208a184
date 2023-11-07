@@ -1,0 +1,17 @@
+package it.betacom.contoBancario;
+
+public class ContoCorrente extends Conto {
+	public ContoCorrente(String titolare) {
+		super(titolare);
+		// TODO Auto-generated constructor stub
+	}
+
+	private static final int tassoDiInteresse = 7;
+
+	@Override
+	public void generaInteressi() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

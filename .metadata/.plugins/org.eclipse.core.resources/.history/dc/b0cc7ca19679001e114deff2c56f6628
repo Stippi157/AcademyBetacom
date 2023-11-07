@@ -1,0 +1,90 @@
+package it.betacom.user;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ContrattoTelefonico {
+
+	private static final double COSTO_AL_SECONDO = 0.01;
+	private double costoTotale;
+	private int numTelefonate;
+	private int numeroTelefono;
+	private String nomeAbbonato;
+	private List <Telefonata> telefonate;
+	
+
+	public ContrattoTelefonico(String nome, int numeroTelefono) {
+		this.nomeAbbonato = nome;
+		this.numeroTelefono = numeroTelefono;
+		this.telefonate = new ArrayList<Telefonata>();
+	}
+	
+	public void aggiungiTelefonata() {
+		int durata = (int)(Math.random()*100)+1;
+		Telefonata tf = new Telefonata((int)(Math.random()*3E9), durata);
+		tf.setCostoTelefonata(durata * COSTO_AL_SECONDO);
+		telefonate.add(tf);
+	}
+	
+	public String getDatiUtente() {
+		return ("Nome utente: " + nomeAbbonato + "numero di telefono: " + numeroTelefono);
+	}
+	
+
+	public int getNumTelefonate() {
+		return numTelefonate;
+	}
+
+	public void setNumTelefonate(int numTelefonate) {
+		this.numTelefonate = numTelefonate;
+	}
+
+	public static double getCostoAlSecondo() {
+		return COSTO_AL_SECONDO;
+	}
+
+	public int getNumeroTelefono() {
+		return numeroTelefono;
+	}
+
+	public void setNumeroTelefono(int numeroTelefono) {
+		this.numeroTelefono = numeroTelefono;
+	}
+
+	public String getNomeAbbonato() {
+		return nomeAbbonato;
+	}
+
+	public void setNomeAbbonato(String nomeAbbonato) {
+		this.nomeAbbonato = nomeAbbonato;
+	}
+
+	public void costoTelefonata(int secondi) {
+		this.costoTotale += COSTO_AL_SECONDO  * secondi;
+	}
+	
+	public void costoTelefonata(double costo) {
+		this.costoTotale += costo;
+ 	}
+
+
+	public double getCostoTotale() {
+		double somma = 0;
+		for(int i = 0; i<telefonate.size(); i++) {
+			somma += telefonate.get(i).getCostoTelefonata();
+		}
+		return somma;
+	}
+
+	public void setCostoTotale(double costoTotale) {
+		this.costoTotale = costoTotale;
+	}
+
+	@Override
+	public String toString() {
+		return "ContrattoTelefonico [] ";
+	}
+	
+	
+	
+}

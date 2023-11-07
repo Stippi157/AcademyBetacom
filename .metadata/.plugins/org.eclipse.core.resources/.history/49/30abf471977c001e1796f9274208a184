@@ -1,0 +1,28 @@
+package it.betacom.ComputerFactory;
+
+public class Desktop extends Computer{
+	
+	public Desktop() {
+		super();
+		this.HD = 0;
+		this.CPU = 0;
+		this.RAM = 0;
+	}
+	
+	@Override
+	void getRAM() {
+		this.RAM = 16;
+	}
+
+	@Override
+	void getHD() {
+		this.HD = 1000;
+		
+	}
+
+	@Override
+	void getCPU() {
+		this.CPU = 4.5;
+	}
+
+}
